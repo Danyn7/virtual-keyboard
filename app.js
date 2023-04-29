@@ -1,3 +1,8 @@
+// ES6+ деструктуризация
+const codes = ['KeyZ', 'KeyX', 'KeyC', 'KeyV', 'KeyB', 'KeyN', 'KeyM'];
+
+const [amountZ, amountX, amountC, amountV, amountB, amountN, amountM] = codes;
+
 const container = document.createElement('div');
 const heading = document.createElement('p');
 const formForText = document.createElement('textarea');
@@ -523,3 +528,223 @@ keyLeft.append(keyLeftIn);
 keyDown.append(keyDownIn);
 keyRight.append(keyRightIn);
 keyCtrlR.append(keyCtrlRIn);
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === amountZ) {
+    keyZ.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === amountZ) {
+    keyZ.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === amountX) {
+    keyX.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === amountX) {
+    keyX.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === amountC) {
+    keyC.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === amountC) {
+    keyC.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === amountV) {
+    keyV.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === amountV) {
+    keyV.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === amountB) {
+    keyB.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === amountB) {
+    keyB.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === amountN) {
+    keyN.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === amountN) {
+    keyN.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === amountM) {
+    keyM.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === amountM) {
+    keyM.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'Comma') {
+    keyComma.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'Comma') {
+    keyComma.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'Period') {
+    keyDot.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'Period') {
+    keyDot.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'Slash') {
+    keyAnotherSlash.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'Slash') {
+    keyAnotherSlash.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'ArrowUp') {
+    keyUp.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'ArrowUp') {
+    keyUp.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'ShiftLeft') {
+    keyShiftL.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'ShiftLeft') {
+    keyShiftL.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'ShiftRight') {
+    keyShiftR.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'ShiftRight') {
+    keyShiftR.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'ControlLeft') {
+    keyCtrlL.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'ControlLeft') {
+    keyCtrlL.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'ControlRight') {
+    keyCtrlR.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'ControlRight') {
+    keyCtrlR.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'MetaLeft') {
+    keyWin.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'MetaLeft') {
+    keyWin.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'AltLeft') {
+    event.preventDefault();
+    keyAltL.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'AltLeft') {
+    event.preventDefault();
+    keyAltL.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'AltRight') {
+    event.preventDefault();
+    keyAltR.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'AltRight') {
+    event.preventDefault();
+    keyAltR.classList.remove('turn-on');
+  }
+});
