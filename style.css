@@ -18,6 +18,9 @@
     justify-content: center;
     align-items: center;
     gap: 4px;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
 }
 
 .form-for-text {
@@ -70,9 +73,15 @@
     height: 40px;
     border: 2px black solid;
     border-radius: 5px;
+    background-color: #9599E2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 18px;
 }
 
-.key-tab,
+
 .key-q,
 .key-w,
 .key-e,
@@ -85,12 +94,32 @@
 .key-p,
 .key-square-l,
 .key-square-r,
-.key-slash,
+.key-slash {
+    width: 40px;
+    height: 40px;
+    border: 2px black solid;
+    border-radius: 5px;
+    background-color: #9599E2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 18px;
+    
+}
+
+.key-tab,
 .key-del {
     width: 40px;
     height: 40px;
     border: 2px black solid;
     border-radius: 5px;
+    background-color: #AE85D2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 15px;
 }
 
 .key-backspace {
@@ -98,6 +127,13 @@
     height: 40px;
     border: 2px black solid;
     border-radius: 5px;
+    background-color: #AE85D2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 15px;
+    
 }
 
 .line-one {
@@ -134,6 +170,12 @@
     height: 40px;
     border: 2px black solid;
     border-radius: 5px;
+    background-color: #9599E2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 18px;
 }
 
 .key-enter,
@@ -142,6 +184,12 @@
     height: 40px;
     border: 2px black solid;
     border-radius: 5px;
+    background-color: #AE85D2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 15px;
 }
 
 .key-shift-l,
@@ -150,6 +198,12 @@
     height: 40px;
     border: 2px black solid;
     border-radius: 5px;
+    background-color: #AE85D2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 15px;
 }
 
 .key-z,
@@ -161,13 +215,32 @@
 .key-m,
 .key-comma,
 .key-dot,
-.key-another-slash,
+.key-another-slash {
+    width: 40px;
+    height: 40px;
+    border: 2px black solid;
+    border-radius: 5px;
+    background-color: #9599E2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 18px;
+}
+
 .key-up {
     width: 40px;
     height: 40px;
     border: 2px black solid;
     border-radius: 5px;
+    background-color: #AE85D2; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 18px;
 }
+
 
 .line-four {
     display: flex;
@@ -193,6 +266,18 @@
     height: 40px;
     border: 2px black solid;
     border-radius: 5px;
+    background-color: #AE85D2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.key-left,
+.key-down,
+.key-right {
+    font-size: 18px;
 }
 
 .key-space {
@@ -200,4 +285,17 @@
     height: 40px;
     border: 2px black solid;
     border-radius: 5px;
+    background-color: #9599E2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 15px;
+
+}
+
+body {
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    background-repeat: no-repeat;
 }
