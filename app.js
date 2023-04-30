@@ -748,3 +748,646 @@ document.addEventListener('keyup', (event) => {
     keyAltR.classList.remove('turn-on');
   }
 });
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'Space') {
+    event.preventDefault();
+    keySpace.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'Space') {
+    event.preventDefault();
+    keySpace.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'ArrowLeft') {
+    event.preventDefault();
+    keyLeft.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'ArrowLeft') {
+    event.preventDefault();
+    keyLeft.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'ArrowRight') {
+    event.preventDefault();
+    keyRight.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'ArrowRight') {
+    event.preventDefault();
+    keyRight.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'ArrowDown') {
+    event.preventDefault();
+    keyDown.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'ArrowDown') {
+    event.preventDefault();
+    keyDown.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'CapsLock') {
+    event.preventDefault();
+    keyCaps.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'CapsLock') {
+    event.preventDefault();
+    keyCaps.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'KeyA') {
+    event.preventDefault();
+    keyA.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'KeyA') {
+    event.preventDefault();
+    keyA.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'KeyS') {
+    event.preventDefault();
+    keyS.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'KeyS') {
+    event.preventDefault();
+    keyS.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'KeyD') {
+    event.preventDefault();
+    keyD.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'KeyD') {
+    event.preventDefault();
+    keyD.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'KeyF') {
+    event.preventDefault();
+    keyF.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'KeyF') {
+    event.preventDefault();
+    keyF.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'KeyG') {
+    event.preventDefault();
+    keyG.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'KeyG') {
+    event.preventDefault();
+    keyG.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'KeyH') {
+    event.preventDefault();
+    keyH.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'KeyH') {
+    event.preventDefault();
+    keyH.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'KeyJ') {
+    event.preventDefault();
+    keyJ.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'KeyJ') {
+    event.preventDefault();
+    keyJ.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'KeyK') {
+    event.preventDefault();
+    keyK.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'KeyK') {
+    event.preventDefault();
+    keyK.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'KeyL') {
+    event.preventDefault();
+    keyL.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'KeyL') {
+    event.preventDefault();
+    keyL.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'Semicolon') {
+    event.preventDefault();
+    keySemicolon.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'Semicolon') {
+    event.preventDefault();
+    keySemicolon.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'Quote') {
+    event.preventDefault();
+    keyApostrophe.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'Quote') {
+    event.preventDefault();
+    keyApostrophe.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'Enter') {
+    event.preventDefault();
+    keyEnter.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'Enter') {
+    event.preventDefault();
+    keyEnter.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'Tab') {
+    event.preventDefault();
+    keyTab.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'Tab') {
+    event.preventDefault();
+    keyTab.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'KeyQ') {
+    event.preventDefault();
+    keyQ.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'KeyQ') {
+    event.preventDefault();
+    keyQ.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'KeyW') {
+    event.preventDefault();
+    keyW.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'KeyW') {
+    event.preventDefault();
+    keyW.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'KeyE') {
+    event.preventDefault();
+    keyE.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'KeyE') {
+    event.preventDefault();
+    keyE.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'KeyR') {
+    event.preventDefault();
+    keyR.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'KeyR') {
+    event.preventDefault();
+    keyR.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'KeyT') {
+    event.preventDefault();
+    keyT.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'KeyT') {
+    event.preventDefault();
+    keyT.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'KeyY') {
+    event.preventDefault();
+    keyY.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'KeyY') {
+    event.preventDefault();
+    keyY.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'KeyU') {
+    event.preventDefault();
+    keyU.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'KeyU') {
+    event.preventDefault();
+    keyU.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'KeyI') {
+    event.preventDefault();
+    keyI.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'KeyI') {
+    event.preventDefault();
+    keyI.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'KeyO') {
+    event.preventDefault();
+    keyO.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'KeyO') {
+    event.preventDefault();
+    keyO.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'KeyP') {
+    event.preventDefault();
+    keyP.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'KeyP') {
+    event.preventDefault();
+    keyP.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'BracketLeft') {
+    event.preventDefault();
+    keySquareL.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'BracketLeft') {
+    event.preventDefault();
+    keySquareL.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'BracketRight') {
+    event.preventDefault();
+    keySquareR.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'BracketRight') {
+    event.preventDefault();
+    keySquareR.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'Delete') {
+    event.preventDefault();
+    keyDel.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'Delete') {
+    event.preventDefault();
+    keyDel.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'Backslash') {
+    event.preventDefault();
+    keySlash.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'Backslash') {
+    event.preventDefault();
+    keySlash.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'Backquote') {
+    event.preventDefault();
+    keyRemark.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'Backquote') {
+    event.preventDefault();
+    keyRemark.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'Digit1') {
+    event.preventDefault();
+    key1.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'Digit1') {
+    event.preventDefault();
+    key1.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'Digit2') {
+    event.preventDefault();
+    key2.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'Digit2') {
+    event.preventDefault();
+    key2.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'Digit3') {
+    event.preventDefault();
+    key3.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'Digit3') {
+    event.preventDefault();
+    key3.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'Digit4') {
+    event.preventDefault();
+    key4.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'Digit4') {
+    event.preventDefault();
+    key4.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'Digit5') {
+    event.preventDefault();
+    key5.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'Digit5') {
+    event.preventDefault();
+    key5.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'Digit6') {
+    event.preventDefault();
+    key6.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'Digit6') {
+    event.preventDefault();
+    key6.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'Digit7') {
+    event.preventDefault();
+    key7.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'Digit7') {
+    event.preventDefault();
+    key7.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'Digit8') {
+    event.preventDefault();
+    key8.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'Digit8') {
+    event.preventDefault();
+    key8.classList.remove('turn-on');
+  }
+});
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'Digit9') {
+    event.preventDefault();
+    key9.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'Digit9') {
+    event.preventDefault();
+    key9.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'Digit0') {
+    event.preventDefault();
+    key0.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'Digit0') {
+    event.preventDefault();
+    key0.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'Minus') {
+    event.preventDefault();
+    keyMinus.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'Minus') {
+    event.preventDefault();
+    keyMinus.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'Equal') {
+    event.preventDefault();
+    keyEquals.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'Equal') {
+    event.preventDefault();
+    keyEquals.classList.remove('turn-on');
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'Backspace') {
+    event.preventDefault();
+    keyBackspace.classList.add('turn-on');
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.code === 'Backspace') {
+    event.preventDefault();
+    keyBackspace.classList.remove('turn-on');
+  }
+});
