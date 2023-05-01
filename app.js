@@ -554,6 +554,7 @@ keyCtrlR.append(keyCtrlRIn);
 document.addEventListener('keydown', (event) => {
   if (event.code === amountZ) {
     keyZ.classList.add('turn-on');
+    formForText.textContent += 'z';
   }
 });
 
@@ -566,6 +567,7 @@ document.addEventListener('keyup', (event) => {
 document.addEventListener('keydown', (event) => {
   if (event.code === amountX) {
     keyX.classList.add('turn-on');
+    formForText.textContent += 'x';
   }
 });
 
@@ -578,6 +580,7 @@ document.addEventListener('keyup', (event) => {
 document.addEventListener('keydown', (event) => {
   if (event.code === amountC) {
     keyC.classList.add('turn-on');
+    formForText.textContent += 'c';
   }
 });
 
@@ -590,6 +593,7 @@ document.addEventListener('keyup', (event) => {
 document.addEventListener('keydown', (event) => {
   if (event.code === amountV) {
     keyV.classList.add('turn-on');
+    formForText.textContent += 'v';
   }
 });
 
@@ -602,6 +606,7 @@ document.addEventListener('keyup', (event) => {
 document.addEventListener('keydown', (event) => {
   if (event.code === amountB) {
     keyB.classList.add('turn-on');
+    formForText.textContent += 'b';
   }
 });
 
@@ -614,6 +619,7 @@ document.addEventListener('keyup', (event) => {
 document.addEventListener('keydown', (event) => {
   if (event.code === amountN) {
     keyN.classList.add('turn-on');
+    formForText.textContent += 'n';
   }
 });
 
@@ -626,6 +632,7 @@ document.addEventListener('keyup', (event) => {
 document.addEventListener('keydown', (event) => {
   if (event.code === amountM) {
     keyM.classList.add('turn-on');
+    formForText.textContent += 'm';
   }
 });
 
@@ -638,6 +645,7 @@ document.addEventListener('keyup', (event) => {
 document.addEventListener('keydown', (event) => {
   if (event.code === 'Comma') {
     keyComma.classList.add('turn-on');
+    formForText.textContent += ',';
   }
 });
 
@@ -650,6 +658,7 @@ document.addEventListener('keyup', (event) => {
 document.addEventListener('keydown', (event) => {
   if (event.code === 'Period') {
     keyDot.classList.add('turn-on');
+    formForText.textContent += '.';
   }
 });
 
@@ -662,6 +671,7 @@ document.addEventListener('keyup', (event) => {
 document.addEventListener('keydown', (event) => {
   if (event.code === 'Slash') {
     keyAnotherSlash.classList.add('turn-on');
+    formForText.textContent += '/';
   }
 });
 
@@ -674,6 +684,7 @@ document.addEventListener('keyup', (event) => {
 document.addEventListener('keydown', (event) => {
   if (event.code === 'ArrowUp') {
     keyUp.classList.add('turn-on');
+    formForText.textContent += '↑';
   }
 });
 
@@ -775,6 +786,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'Space') {
     event.preventDefault();
     keySpace.classList.add('turn-on');
+    formForText.textContent += ' ';
   }
 });
 
@@ -789,6 +801,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'ArrowLeft') {
     event.preventDefault();
     keyLeft.classList.add('turn-on');
+    formForText.textContent += '←';
   }
 });
 
@@ -803,6 +816,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'ArrowRight') {
     event.preventDefault();
     keyRight.classList.add('turn-on');
+    formForText.textContent += '→';
   }
 });
 
@@ -817,6 +831,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'ArrowDown') {
     event.preventDefault();
     keyDown.classList.add('turn-on');
+    formForText.textContent += '↓';
   }
 });
 
@@ -845,6 +860,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'KeyA') {
     event.preventDefault();
     keyA.classList.add('turn-on');
+    formForText.textContent += 'a';
   }
 });
 
@@ -859,6 +875,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'KeyS') {
     event.preventDefault();
     keyS.classList.add('turn-on');
+    formForText.textContent += 's';
   }
 });
 
@@ -873,6 +890,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'KeyD') {
     event.preventDefault();
     keyD.classList.add('turn-on');
+    formForText.textContent += 'd';
   }
 });
 
@@ -887,6 +905,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'KeyF') {
     event.preventDefault();
     keyF.classList.add('turn-on');
+    formForText.textContent += 'f';
   }
 });
 
@@ -901,6 +920,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'KeyG') {
     event.preventDefault();
     keyG.classList.add('turn-on');
+    formForText.textContent += 'g';
   }
 });
 
@@ -915,6 +935,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'KeyH') {
     event.preventDefault();
     keyH.classList.add('turn-on');
+    formForText.textContent += 'h';
   }
 });
 
@@ -929,6 +950,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'KeyJ') {
     event.preventDefault();
     keyJ.classList.add('turn-on');
+    formForText.textContent += 'j';
   }
 });
 
@@ -943,6 +965,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'KeyK') {
     event.preventDefault();
     keyK.classList.add('turn-on');
+    formForText.textContent += 'k';
   }
 });
 
@@ -957,6 +980,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'KeyL') {
     event.preventDefault();
     keyL.classList.add('turn-on');
+    formForText.textContent += 'l';
   }
 });
 
@@ -971,6 +995,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'Semicolon') {
     event.preventDefault();
     keySemicolon.classList.add('turn-on');
+    formForText.textContent += ';';
   }
 });
 
@@ -985,6 +1010,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'Quote') {
     event.preventDefault();
     keyApostrophe.classList.add('turn-on');
+    formForText.textContent += "'";
   }
 });
 
@@ -999,6 +1025,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'Enter') {
     event.preventDefault();
     keyEnter.classList.add('turn-on');
+    formForText.textContent += ' \n';
   }
 });
 
@@ -1013,6 +1040,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'Tab') {
     event.preventDefault();
     keyTab.classList.add('turn-on');
+    formForText.textContent += '    ';
   }
 });
 
@@ -1027,6 +1055,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'KeyQ') {
     event.preventDefault();
     keyQ.classList.add('turn-on');
+    formForText.textContent += 'q';
   }
 });
 
@@ -1041,6 +1070,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'KeyW') {
     event.preventDefault();
     keyW.classList.add('turn-on');
+    formForText.textContent += 'w';
   }
 });
 
@@ -1055,6 +1085,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'KeyE') {
     event.preventDefault();
     keyE.classList.add('turn-on');
+    formForText.textContent += 'e';
   }
 });
 
@@ -1069,6 +1100,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'KeyR') {
     event.preventDefault();
     keyR.classList.add('turn-on');
+    formForText.textContent += 'r';
   }
 });
 
@@ -1083,6 +1115,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'KeyT') {
     event.preventDefault();
     keyT.classList.add('turn-on');
+    formForText.textContent += 't';
   }
 });
 
@@ -1097,6 +1130,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'KeyY') {
     event.preventDefault();
     keyY.classList.add('turn-on');
+    formForText.textContent += 'y';
   }
 });
 
@@ -1111,6 +1145,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'KeyU') {
     event.preventDefault();
     keyU.classList.add('turn-on');
+    formForText.textContent += 'u';
   }
 });
 
@@ -1125,6 +1160,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'KeyI') {
     event.preventDefault();
     keyI.classList.add('turn-on');
+    formForText.textContent += 'i';
   }
 });
 
@@ -1139,6 +1175,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'KeyO') {
     event.preventDefault();
     keyO.classList.add('turn-on');
+    formForText.textContent += 'o';
   }
 });
 
@@ -1153,6 +1190,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'KeyP') {
     event.preventDefault();
     keyP.classList.add('turn-on');
+    formForText.textContent += 'p';
   }
 });
 
@@ -1167,6 +1205,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'BracketLeft') {
     event.preventDefault();
     keySquareL.classList.add('turn-on');
+    formForText.textContent += '[';
   }
 });
 
@@ -1181,6 +1220,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'BracketRight') {
     event.preventDefault();
     keySquareR.classList.add('turn-on');
+    formForText.textContent += ']';
   }
 });
 
@@ -1209,6 +1249,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'Backslash') {
     event.preventDefault();
     keySlash.classList.add('turn-on');
+    formForText.textContent += '';
   }
 });
 
@@ -1223,6 +1264,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'Backquote') {
     event.preventDefault();
     keyRemark.classList.add('turn-on');
+    formForText.textContent += '`';
   }
 });
 
@@ -1237,6 +1279,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'Digit1') {
     event.preventDefault();
     key1.classList.add('turn-on');
+    formForText.textContent += '1';
   }
 });
 
@@ -1251,6 +1294,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'Digit2') {
     event.preventDefault();
     key2.classList.add('turn-on');
+    formForText.textContent += '2';
   }
 });
 
@@ -1265,6 +1309,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'Digit3') {
     event.preventDefault();
     key3.classList.add('turn-on');
+    formForText.textContent += '3';
   }
 });
 
@@ -1279,6 +1324,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'Digit4') {
     event.preventDefault();
     key4.classList.add('turn-on');
+    formForText.textContent += '4';
   }
 });
 
@@ -1293,6 +1339,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'Digit5') {
     event.preventDefault();
     key5.classList.add('turn-on');
+    formForText.textContent += '5';
   }
 });
 
@@ -1307,6 +1354,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'Digit6') {
     event.preventDefault();
     key6.classList.add('turn-on');
+    formForText.textContent += '6';
   }
 });
 
@@ -1321,6 +1369,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'Digit7') {
     event.preventDefault();
     key7.classList.add('turn-on');
+    formForText.textContent += '7';
   }
 });
 
@@ -1335,6 +1384,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'Digit8') {
     event.preventDefault();
     key8.classList.add('turn-on');
+    formForText.textContent += '8';
   }
 });
 
@@ -1348,6 +1398,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'Digit9') {
     event.preventDefault();
     key9.classList.add('turn-on');
+    formForText.textContent += '9';
   }
 });
 
@@ -1362,6 +1413,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'Digit0') {
     event.preventDefault();
     key0.classList.add('turn-on');
+    formForText.textContent += '0';
   }
 });
 
@@ -1376,6 +1428,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'Minus') {
     event.preventDefault();
     keyMinus.classList.add('turn-on');
+    formForText.textContent += '-';
   }
 });
 
@@ -1390,6 +1443,7 @@ document.addEventListener('keydown', (event) => {
   if (event.code === 'Equal') {
     event.preventDefault();
     keyEquals.classList.add('turn-on');
+    formForText.textContent += '=';
   }
 });
 
@@ -1684,3 +1738,323 @@ document.onkeydown = function changeLanguage(event) {
     keyAnotherSlashIn.classList.toggle('hidden-key');
   }
 };
+
+/* Ввод текста в форму */
+
+function addInFormQ() {
+  formForText.textContent += 'q';
+}
+
+keyQIn.addEventListener('click', addInFormQ);
+
+function addInForm1() {
+  formForText.textContent += '1';
+}
+
+key1In.addEventListener('click', addInForm1);
+
+function addInFormRemark() {
+  formForText.textContent += '`';
+}
+
+keyRemarkIn.addEventListener('click', addInFormRemark);
+
+function addInForm2() {
+  formForText.textContent += '2';
+}
+
+key2In.addEventListener('click', addInForm2);
+
+function addInForm3() {
+  formForText.textContent += '3';
+}
+
+key3In.addEventListener('click', addInForm3);
+
+function addInForm4() {
+  formForText.textContent += '4';
+}
+
+key4In.addEventListener('click', addInForm4);
+
+function addInForm5() {
+  formForText.textContent += '5';
+}
+
+key5In.addEventListener('click', addInForm5);
+
+function addInForm6() {
+  formForText.textContent += '6';
+}
+
+key6In.addEventListener('click', addInForm6);
+
+function addInForm7() {
+  formForText.textContent += '7';
+}
+
+key7In.addEventListener('click', addInForm7);
+
+function addInForm8() {
+  formForText.textContent += '8';
+}
+
+key8In.addEventListener('click', addInForm8);
+
+function addInForm9() {
+  formForText.textContent += '9';
+}
+
+key9In.addEventListener('click', addInForm9);
+
+function addInForm0() {
+  formForText.textContent += '0';
+}
+
+key0In.addEventListener('click', addInForm0);
+
+function addInFormMinus() {
+  formForText.textContent += '-';
+}
+
+keyMinusIn.addEventListener('click', addInFormMinus);
+
+function addInFormEquals() {
+  formForText.textContent += '=';
+}
+
+keyEqualsIn.addEventListener('click', addInFormEquals);
+
+function addInFormTab() {
+  formForText.textContent += '    ';
+}
+
+keyTabIn.addEventListener('click', addInFormTab);
+
+function addInFormW() {
+  formForText.textContent += 'w';
+}
+
+keyWIn.addEventListener('click', addInFormW);
+
+function addInFormE() {
+  formForText.textContent += 'e';
+}
+
+keyEIn.addEventListener('click', addInFormE);
+
+function addInFormR() {
+  formForText.textContent += 'r';
+}
+
+keyRIn.addEventListener('click', addInFormR);
+
+function addInFormT() {
+  formForText.textContent += 't';
+}
+
+keyTIn.addEventListener('click', addInFormT);
+
+function addInFormY() {
+  formForText.textContent += 'y';
+}
+
+keyYIn.addEventListener('click', addInFormY);
+
+function addInFormU() {
+  formForText.textContent += 'u';
+}
+
+keyUIn.addEventListener('click', addInFormU);
+
+function addInFormI() {
+  formForText.textContent += 'i';
+}
+
+keyIIn.addEventListener('click', addInFormI);
+
+function addInFormO() {
+  formForText.textContent += 'o';
+}
+
+keyOIn.addEventListener('click', addInFormO);
+
+function addInFormP() {
+  formForText.textContent += 'p';
+}
+
+keyPIn.addEventListener('click', addInFormP);
+
+function addInFormSquareL() {
+  formForText.textContent += '[';
+}
+
+keySquareLIn.addEventListener('click', addInFormSquareL);
+
+function addInFormSquareR() {
+  formForText.textContent += ']';
+}
+
+keySquareRIn.addEventListener('click', addInFormSquareR);
+
+function addInFormA() {
+  formForText.textContent += 'a';
+}
+
+keyAIn.addEventListener('click', addInFormA);
+
+function addInFormS() {
+  formForText.textContent += 's';
+}
+
+keySIn.addEventListener('click', addInFormS);
+
+function addInFormD() {
+  formForText.textContent += 'd';
+}
+
+keyDIn.addEventListener('click', addInFormD);
+
+function addInFormF() {
+  formForText.textContent += 'f';
+}
+
+keyFIn.addEventListener('click', addInFormF);
+
+function addInFormG() {
+  formForText.textContent += 'g';
+}
+
+keyGIn.addEventListener('click', addInFormG);
+
+function addInFormH() {
+  formForText.textContent += 'h';
+}
+
+keyHIn.addEventListener('click', addInFormH);
+
+function addInFormJ() {
+  formForText.textContent += 'j';
+}
+
+keyJIn.addEventListener('click', addInFormJ);
+
+function addInFormK() {
+  formForText.textContent += 'k';
+}
+
+keyKIn.addEventListener('click', addInFormK);
+
+function addInFormL() {
+  formForText.textContent += 'l';
+}
+
+keyLIn.addEventListener('click', addInFormL);
+
+function addInFormSemicolon() {
+  formForText.textContent += ';';
+}
+
+keySemicolonIn.addEventListener('click', addInFormSemicolon);
+
+function addInFormApostrophe() {
+  formForText.textContent += "'";
+}
+
+keyApostropheIn.addEventListener('click', addInFormApostrophe);
+
+function addInFormEnter() {
+  formForText.textContent += '\n';
+}
+
+keyEnterIn.addEventListener('click', addInFormEnter);
+
+function addInFormZ() {
+  formForText.textContent += 'z';
+}
+
+keyZIn.addEventListener('click', addInFormZ);
+
+function addInFormX() {
+  formForText.textContent += 'x';
+}
+
+keyXIn.addEventListener('click', addInFormX);
+
+function addInFormC() {
+  formForText.textContent += 'c';
+}
+
+keyCIn.addEventListener('click', addInFormC);
+
+function addInFormV() {
+  formForText.textContent += 'v';
+}
+
+keyVIn.addEventListener('click', addInFormV);
+
+function addInFormB() {
+  formForText.textContent += 'b';
+}
+
+keyBIn.addEventListener('click', addInFormB);
+
+function addInFormN() {
+  formForText.textContent += 'n';
+}
+
+keyNIn.addEventListener('click', addInFormN);
+
+function addInFormM() {
+  formForText.textContent += 'm';
+}
+
+keyMIn.addEventListener('click', addInFormM);
+
+function addInFormComma() {
+  formForText.textContent += ',';
+}
+
+keyCommaIn.addEventListener('click', addInFormComma);
+
+function addInFormDot() {
+  formForText.textContent += '.';
+}
+
+keyDotIn.addEventListener('click', addInFormDot);
+
+function addInFormAnotherSlash() {
+  formForText.textContent += '/';
+}
+
+keyAnotherSlashIn.addEventListener('click', addInFormAnotherSlash);
+
+function addInFormUp() {
+  formForText.textContent += '↑';
+}
+
+keyUpIn.addEventListener('click', addInFormUp);
+
+function addInFormDown() {
+  formForText.textContent += '↓';
+}
+
+keyDownIn.addEventListener('click', addInFormDown);
+
+function addInFormLeft() {
+  formForText.textContent += '←';
+}
+
+keyLeftIn.addEventListener('click', addInFormLeft);
+
+function addInFormRight() {
+  formForText.textContent += '→';
+}
+
+keyRightIn.addEventListener('click', addInFormRight);
+
+function addInFormSpace() {
+  formForText.textContent += ' ';
+}
+
+keySpaceIn.addEventListener('click', addInFormSpace);

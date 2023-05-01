@@ -302,9 +302,9 @@ body {
 
 .turn-on {
     transform: scale(0.9);
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
     animation-name: key-change;
-    animation-duration: 0.3s;
+    animation-duration: 0.2s;
     animation-fill-mode: forwards;
 }
 
@@ -323,4 +323,164 @@ body {
 
 .hidden-key {
     display: none;
+}
+
+.line-one div:hover {
+    cursor: pointer;
+    transition: all 0.2s ease;
+    animation-name: key-change-new;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+.line-two div:hover {
+    cursor: pointer;
+    transition: all 0.2s ease;
+    animation-name: key-change-new;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+.line-three div:hover {
+    cursor: pointer;
+    transition: all 0.2s ease;
+    animation-name: key-change-new;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+.line-four div:hover {
+    cursor: pointer;
+    transition: all 0.2s ease;
+    animation-name: key-change-new;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+.line-five div:hover {
+    cursor: pointer;
+    transition: all 0.2s ease;
+    animation-name: key-change-new;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes key-change-new {
+    from {
+        background-color: #9599E2;
+        
+    }
+
+    to {
+        background: rgb(238,174,202);
+        background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    }
+}
+
+.line-one div:active {
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: all 0.2s ease;
+    animation-name: key-change;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+.line-two div:active {
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: all 0.2s ease;
+    animation-name: key-change;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+.line-three div:active {
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: all 0.2s ease;
+    animation-name: key-change;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+.line-four div:active {
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: all 0.2s ease;
+    animation-name: key-change;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+.line-five div:active {
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: all 0.2s ease;
+    animation-name: key-change;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+/*Ввод текста в форму*/
+.key1-span,
+.key-q-span,
+.key-remark-span,
+.key1-span,
+.key2-span,
+.key3-span,
+.key4-span,
+.key5-span,
+.key6-span,
+.key7-span,
+.key8-span,
+.key9-span,
+.key0-span,
+.key-minus-span,
+.key-equals-span,
+.key-q-span,
+.key-w-span,
+.key-e-span,
+.key-r-span,
+.key-t-span,
+.key-y-span,
+.key-u-span,
+.key-i-span,
+.key-o-span,
+.key-p-span,
+.key-square-l-span,
+.key-square-r-span,
+.key-slash-span,
+.key-tab-span,
+.key-a-span,
+.key-s-span,
+.key-d-span,
+.key-f-span,
+.key-g-span,
+.key-h-span,
+.key-j-span,
+.key-k-span,
+.key-l-span,
+.key-semicolon-span,
+.key-apostrophe-span,
+.key-enter-span,
+.key-z-span,
+.key-x-span,
+.key-c-span,
+.key-v-span,
+.key-b-span,
+.key-n-span,
+.key-m-span,
+.key-comma-span,
+.key-dot-span,
+.key-another-slash-span,
+.key-left-span,
+.key-down-span,
+.key-right-span,
+.key-space-span,
+.key-up-span {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 35px;
 }
