@@ -1,0 +1,486 @@
+.container {
+    margin:  0 auto;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.keyboard {
+    width: 800px;
+    height: 250px;
+    border: 2px black double;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+}
+
+.form-for-text {
+    width: 840px;
+    height: 200px;
+    
+}
+
+.heading {
+    margin: 5px;
+    font-family: monospace;
+    font-size: 32px;
+}
+
+.little-message {
+    margin: 5px;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.little-message2 {
+    margin: 5px;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.line-one,
+.line-two,
+.line-three,
+.line-four,
+.line-five {
+    width: 780px;
+    height: 45px;
+}
+
+.key-remark,
+.key1,
+.key2,
+.key3,
+.key4,
+.key5,
+.key6,
+.key7,
+.key8,
+.key9,
+.key0,
+.key-minus,
+.key-equals {
+    width: 40px;
+    height: 40px;
+    border: 2px black solid;
+    border-radius: 5px;
+    background-color: #9599E2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+
+.key-q,
+.key-w,
+.key-e,
+.key-r,
+.key-t,
+.key-y,
+.key-u,
+.key-i,
+.key-o,
+.key-p,
+.key-square-l,
+.key-square-r,
+.key-slash {
+    width: 40px;
+    height: 40px;
+    border: 2px black solid;
+    border-radius: 5px;
+    background-color: #9599E2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 18px;
+    
+}
+
+.key-tab,
+.key-del {
+    width: 40px;
+    height: 40px;
+    border: 2px black solid;
+    border-radius: 5px;
+    background-color: #AE85D2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.key-backspace {
+    width: 80px;
+    height: 40px;
+    border: 2px black solid;
+    border-radius: 5px;
+    background-color: #AE85D2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 15px;
+    
+}
+
+.line-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line-three {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.key-a,
+.key-s,
+.key-d,
+.key-f,
+.key-g,
+.key-h,
+.key-j,
+.key-k,
+.key-l,
+.key-p,
+.key-semicolon,
+.key-apostrophe {
+    width: 40px;
+    height: 40px;
+    border: 2px black solid;
+    border-radius: 5px;
+    background-color: #9599E2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+.key-enter,
+.key-caps {
+    width: 80px;
+    height: 40px;
+    border: 2px black solid;
+    border-radius: 5px;
+    background-color: #AE85D2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.key-shift-l,
+.key-shift-r {
+    width: 80px;
+    height: 40px;
+    border: 2px black solid;
+    border-radius: 5px;
+    background-color: #AE85D2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.key-z,
+.key-x,
+.key-c,
+.key-v,
+.key-b,
+.key-n,
+.key-m,
+.key-comma,
+.key-dot,
+.key-another-slash {
+    width: 40px;
+    height: 40px;
+    border: 2px black solid;
+    border-radius: 5px;
+    background-color: #9599E2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+.key-up {
+    width: 40px;
+    height: 40px;
+    border: 2px black solid;
+    border-radius: 5px;
+    background-color: #AE85D2; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+
+.line-four {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line-five {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.key-ctrl-l,
+.key-win,
+.key-alt-l,
+.key-alt-r,
+.key-left,
+.key-down,
+.key-right,
+.key-ctrl-r {
+    width: 40px;
+    height: 40px;
+    border: 2px black solid;
+    border-radius: 5px;
+    background-color: #AE85D2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.key-left,
+.key-down,
+.key-right {
+    font-size: 18px;
+}
+
+.key-space {
+    width: 395px;
+    height: 40px;
+    border: 2px black solid;
+    border-radius: 5px;
+    background-color: #9599E2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 15px;
+
+}
+
+body {
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    background-repeat: no-repeat;
+}
+
+.turn-on {
+    transform: scale(0.9);
+    transition: all 0.2s ease;
+    animation-name: key-change;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes key-change {
+    from {
+        background-color: #9599E2;
+        border-radius: 10px;
+    }
+
+    to {
+        border-radius: 20px;
+        background: rgb(238,174,202);
+        background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    }
+}
+
+.hidden-key {
+    display: none;
+}
+
+.line-one div:hover {
+    cursor: pointer;
+    transition: all 0.2s ease;
+    animation-name: key-change-new;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+.line-two div:hover {
+    cursor: pointer;
+    transition: all 0.2s ease;
+    animation-name: key-change-new;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+.line-three div:hover {
+    cursor: pointer;
+    transition: all 0.2s ease;
+    animation-name: key-change-new;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+.line-four div:hover {
+    cursor: pointer;
+    transition: all 0.2s ease;
+    animation-name: key-change-new;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+.line-five div:hover {
+    cursor: pointer;
+    transition: all 0.2s ease;
+    animation-name: key-change-new;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes key-change-new {
+    from {
+        background-color: #9599E2;
+        
+    }
+
+    to {
+        background: rgb(238,174,202);
+        background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    }
+}
+
+.line-one div:active {
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: all 0.2s ease;
+    animation-name: key-change;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+.line-two div:active {
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: all 0.2s ease;
+    animation-name: key-change;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+.line-three div:active {
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: all 0.2s ease;
+    animation-name: key-change;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+.line-four div:active {
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: all 0.2s ease;
+    animation-name: key-change;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+.line-five div:active {
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: all 0.2s ease;
+    animation-name: key-change;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+/*Ввод текста в форму*/
+.key1-span,
+.key-q-span,
+.key-remark-span,
+.key1-span,
+.key2-span,
+.key3-span,
+.key4-span,
+.key5-span,
+.key6-span,
+.key7-span,
+.key8-span,
+.key9-span,
+.key0-span,
+.key-minus-span,
+.key-equals-span,
+.key-q-span,
+.key-w-span,
+.key-e-span,
+.key-r-span,
+.key-t-span,
+.key-y-span,
+.key-u-span,
+.key-i-span,
+.key-o-span,
+.key-p-span,
+.key-square-l-span,
+.key-square-r-span,
+.key-slash-span,
+.key-tab-span,
+.key-a-span,
+.key-s-span,
+.key-d-span,
+.key-f-span,
+.key-g-span,
+.key-h-span,
+.key-j-span,
+.key-k-span,
+.key-l-span,
+.key-semicolon-span,
+.key-apostrophe-span,
+.key-enter-span,
+.key-z-span,
+.key-x-span,
+.key-c-span,
+.key-v-span,
+.key-b-span,
+.key-n-span,
+.key-m-span,
+.key-comma-span,
+.key-dot-span,
+.key-another-slash-span,
+.key-left-span,
+.key-down-span,
+.key-right-span,
+.key-space-span,
+.key-up-span {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 35px;
+}
