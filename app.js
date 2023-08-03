@@ -1,37 +1,20 @@
-// ES6+ деструктуризация
 const codes = ['KeyZ', 'KeyX', 'KeyC', 'KeyV', 'KeyB', 'KeyN', 'KeyM'];
 
 const [amountZ, amountX, amountC, amountV, amountB, amountN, amountM] = codes;
 
-// ES6+ классы
-class DoubleV {
-  constructor(Keyvalue) {
-    this.Keyvalue = Keyvalue;
-  }
-
-  getName() {
-    return this.Keyvalue;
-  }
-}
 const keyWin = document.createElement('div');
 const keyW = document.createElement('div');
-
-const objKeys = new DoubleV('keyW');
-let keyWInRus = objKeys.getName();
-
 keyWInRus = document.createElement('span');
 keyWInRus.className = 'key-win-rus';
 keyWInRus.innerHTML = 'ц';
 keyW.append(keyWInRus);
 keyWInRus.classList.add('hidden-key');
-
 const container = document.createElement('div');
 const heading = document.createElement('p');
 const formForText = document.createElement('textarea');
 const keyboard = document.createElement('div');
 const littleMessage = document.createElement('p');
 const littleMessage2 = document.createElement('p');
-
 const keyRemarkIn = document.createElement('span');
 const key1In = document.createElement('span');
 const key2In = document.createElement('span');
@@ -46,13 +29,11 @@ const key0In = document.createElement('span');
 const keyMinusIn = document.createElement('span');
 const keyEqualsIn = document.createElement('span');
 const keyBackspaceIn = document.createElement('span');
-
 const lineOne = document.createElement('div');
 const lineTwo = document.createElement('div');
 const lineThree = document.createElement('div');
 const lineFour = document.createElement('div');
 const lineFive = document.createElement('div');
-
 const keyRemark = document.createElement('div');
 const key1 = document.createElement('div');
 const key2 = document.createElement('div');
@@ -67,9 +48,7 @@ const key0 = document.createElement('div');
 const keyMinus = document.createElement('div');
 const keyEquals = document.createElement('div');
 const keyBackspace = document.createElement('div');
-
 const keyCtrlL = document.createElement('div');
-
 const keyAltL = document.createElement('div');
 const keySpace = document.createElement('div');
 const keyAltR = document.createElement('div');
@@ -77,7 +56,6 @@ const keyLeft = document.createElement('div');
 const keyDown = document.createElement('div');
 const keyRight = document.createElement('div');
 const keyCtrlR = document.createElement('div');
-
 const keyCtrlLIn = document.createElement('span');
 const keyWinIn = document.createElement('span');
 const keyAltLIn = document.createElement('span');
@@ -87,50 +65,8 @@ const keyLeftIn = document.createElement('span');
 const keyDownIn = document.createElement('span');
 const keyRightIn = document.createElement('span');
 const keyCtrlRIn = document.createElement('span');
-
-keyCtrlL.className = 'key-ctrl-l';
-keyWin.className = 'key-win';
-keyAltL.className = 'key-alt-l';
-keySpace.className = 'key-space';
-keyAltR.className = 'key-alt-r';
-keyLeft.className = 'key-left';
-keyDown.className = 'key-down';
-keyRight.className = 'key-right';
-keyCtrlR.className = 'key-ctrl-r';
-
-keyCtrlLIn.className = 'key-ctrl-l-span';
-keyWinIn.className = 'key-win-span';
-keyAltLIn.className = 'key-alt-l-span';
-keySpaceIn.className = 'key-space-span';
-keyAltRIn.className = 'key-alt-r-span';
-keyLeftIn.className = 'key-left-span';
-keyDownIn.className = 'key-down-span';
-keyRightIn.className = 'key-right-span';
-keyCtrlRIn.className = 'key-ctrl-r-span';
-
-keyCtrlLIn.innerHTML = 'Ctrl';
-keyWinIn.innerHTML = 'Win';
-keyAltLIn.innerHTML = 'Alt';
-keySpaceIn.innerHTML = '';
-keyAltRIn.innerHTML = 'Alt';
-keyLeftIn.innerHTML = '&#8592';
-keyDownIn.innerHTML = '&#8595';
-keyRightIn.innerHTML = '&#8594';
-keyCtrlRIn.innerHTML = 'Ctrl';
-
-lineFive.append(keyCtrlL);
-lineFive.append(keyWin);
-lineFive.append(keyAltL);
-lineFive.append(keySpace);
-lineFive.append(keyAltR);
-lineFive.append(keyLeft);
-lineFive.append(keyDown);
-lineFive.append(keyRight);
-lineFive.append(keyCtrlR);
-
 const keyTab = document.createElement('div');
 const keyQ = document.createElement('div');
-
 const keyE = document.createElement('div');
 const keyR = document.createElement('div');
 const keyT = document.createElement('div');
@@ -143,7 +79,6 @@ const keySquareL = document.createElement('div');
 const keySquareR = document.createElement('div');
 const keySlash = document.createElement('div');
 const keyDel = document.createElement('div');
-
 const keyTabIn = document.createElement('span');
 const keyQIn = document.createElement('span');
 const keyWIn = document.createElement('span');
@@ -159,7 +94,6 @@ const keySquareLIn = document.createElement('span');
 const keySquareRIn = document.createElement('span');
 const keySlashIn = document.createElement('span');
 const keyDelIn = document.createElement('span');
-
 const keyCaps = document.createElement('div');
 const keyA = document.createElement('div');
 const keyS = document.createElement('div');
@@ -173,7 +107,6 @@ const keyL = document.createElement('div');
 const keySemicolon = document.createElement('div');
 const keyApostrophe = document.createElement('div');
 const keyEnter = document.createElement('div');
-
 const keyCapsIn = document.createElement('span');
 const keyAIn = document.createElement('span');
 const keySIn = document.createElement('span');
@@ -187,7 +120,6 @@ const keyLIn = document.createElement('span');
 const keySemicolonIn = document.createElement('span');
 const keyApostropheIn = document.createElement('span');
 const keyEnterIn = document.createElement('span');
-
 const keyShiftL = document.createElement('div');
 const keyZ = document.createElement('div');
 const keyX = document.createElement('div');
@@ -201,7 +133,6 @@ const keyDot = document.createElement('div');
 const keyAnotherSlash = document.createElement('div');
 const keyUp = document.createElement('div');
 const keyShiftR = document.createElement('div');
-
 const keyShiftLIn = document.createElement('span');
 const keyZIn = document.createElement('span');
 const keyXIn = document.createElement('span');
@@ -216,6 +147,25 @@ const keyAnotherSlashIn = document.createElement('span');
 const keyUpIn = document.createElement('span');
 const keyShiftRIn = document.createElement('span');
 
+
+keyCtrlL.className = 'key-ctrl-l';
+keyWin.className = 'key-win';
+keyAltL.className = 'key-alt-l';
+keySpace.className = 'key-space';
+keyAltR.className = 'key-alt-r';
+keyLeft.className = 'key-left';
+keyDown.className = 'key-down';
+keyRight.className = 'key-right';
+keyCtrlR.className = 'key-ctrl-r';
+keyCtrlLIn.className = 'key-ctrl-l-span';
+keyWinIn.className = 'key-win-span';
+keyAltLIn.className = 'key-alt-l-span';
+keySpaceIn.className = 'key-space-span';
+keyAltRIn.className = 'key-alt-r-span';
+keyLeftIn.className = 'key-left-span';
+keyDownIn.className = 'key-down-span';
+keyRightIn.className = 'key-right-span';
+keyCtrlRIn.className = 'key-ctrl-r-span';
 keyShiftL.className = 'key-shift-l';
 keyZ.className = 'key-z';
 keyX.className = 'key-x';
@@ -229,7 +179,6 @@ keyDot.className = 'key-dot';
 keyAnotherSlash.className = 'key-another-slash';
 keyUp.className = 'key-up';
 keyShiftR.className = 'key-shift-r';
-
 keyShiftLIn.className = 'key-shift-l-span';
 keyZIn.className = 'key-z-span';
 keyXIn.className = 'key-x-span';
@@ -243,7 +192,6 @@ keyDotIn.className = 'key-dot-span';
 keyAnotherSlashIn.className = 'key-another-slash-span';
 keyUpIn.className = 'key-up-span';
 keyShiftRIn.className = 'key-shift-r-span';
-
 keyCaps.className = 'key-caps';
 keyA.className = 'key-a';
 keyS.className = 'key-s';
@@ -257,7 +205,6 @@ keyL.className = 'key-l';
 keySemicolon.className = 'key-semicolon';
 keyApostrophe.className = 'key-apostrophe';
 keyEnter.className = 'key-enter';
-
 keyCapsIn.className = 'key-caps-span';
 keyAIn.className = 'key-a-span';
 keySIn.className = 'key-s-span';
@@ -271,7 +218,6 @@ keyLIn.className = 'key-l-span';
 keySemicolonIn.className = 'key-semicolon-span';
 keyApostropheIn.className = 'key-apostrophe-span';
 keyEnterIn.className = 'key-enter-span';
-
 keyTab.className = 'key-tab';
 keyQ.className = 'key-q';
 keyW.className = 'key-w';
@@ -287,7 +233,6 @@ keySquareL.className = 'key-square-l';
 keySquareR.className = 'key-square-r';
 keySlash.className = 'key-slash';
 keyDel.className = 'key-del';
-
 keyTabIn.className = 'key-tab-span';
 keyQIn.className = 'key-q-span';
 keyWIn.className = 'key-w-span';
@@ -303,51 +248,6 @@ keySquareLIn.className = 'key-square-l-span';
 keySquareRIn.className = 'key-square-r-span';
 keySlashIn.className = 'key-slash-span';
 keyDelIn.className = 'key-del-span';
-
-lineTwo.append(keyTab);
-lineTwo.append(keyQ);
-lineTwo.append(keyW);
-lineTwo.append(keyE);
-lineTwo.append(keyR);
-lineTwo.append(keyT);
-lineTwo.append(keyY);
-lineTwo.append(keyU);
-lineTwo.append(keyI);
-lineTwo.append(keyO);
-lineTwo.append(keyP);
-lineTwo.append(keySquareL);
-lineTwo.append(keySquareR);
-lineTwo.append(keySlash);
-lineTwo.append(keyDel);
-
-lineThree.append(keyCaps);
-lineThree.append(keyA);
-lineThree.append(keyS);
-lineThree.append(keyD);
-lineThree.append(keyF);
-lineThree.append(keyG);
-lineThree.append(keyH);
-lineThree.append(keyJ);
-lineThree.append(keyK);
-lineThree.append(keyL);
-lineThree.append(keySemicolon);
-lineThree.append(keyApostrophe);
-lineThree.append(keyEnter);
-
-lineFour.append(keyShiftL);
-lineFour.append(keyZ);
-lineFour.append(keyX);
-lineFour.append(keyC);
-lineFour.append(keyV);
-lineFour.append(keyB);
-lineFour.append(keyN);
-lineFour.append(keyM);
-lineFour.append(keyComma);
-lineFour.append(keyDot);
-lineFour.append(keyAnotherSlash);
-lineFour.append(keyUp);
-lineFour.append(keyShiftR);
-
 keyRemark.className = 'key-remark';
 key1.className = 'key1';
 key2.className = 'key2';
@@ -362,7 +262,6 @@ key0.className = 'key0';
 keyMinus.className = 'key-minus';
 keyEquals.className = 'key-equals';
 keyBackspace.className = 'key-backspace';
-
 keyRemarkIn.className = 'key-remark-span';
 key1In.className = 'key1-span';
 key2In.className = 'key2-span';
@@ -377,13 +276,11 @@ key0In.className = 'key0-span';
 keyMinusIn.className = 'key-minus-span';
 keyEqualsIn.className = 'key-equals-span';
 keyBackspaceIn.className = 'key-backspace-span';
-
 lineOne.className = 'line-one';
 lineTwo.className = 'line-two';
 lineThree.className = 'line-three';
 lineFour.className = 'line-four';
 lineFive.className = 'line-five';
-
 container.className = 'container';
 heading.className = 'heading';
 formForText.className = 'form-for-text';
@@ -391,53 +288,19 @@ keyboard.className = 'keyboard';
 littleMessage.className = 'little-message';
 littleMessage2.className = 'little-message2';
 
-heading.innerHTML = 'RSS Virtual keyboard';
+
+keyCtrlLIn.innerHTML = 'Ctrl';
+keyWinIn.innerHTML = 'Win';
+keyAltLIn.innerHTML = 'Alt';
+keySpaceIn.innerHTML = '';
+keyAltRIn.innerHTML = 'Alt';
+keyLeftIn.innerHTML = '&#8592';
+keyDownIn.innerHTML = '&#8595';
+keyRightIn.innerHTML = '&#8594';
+keyCtrlRIn.innerHTML = 'Ctrl';
+heading.innerHTML = 'Virtual keyboard';
 littleMessage.innerHTML = 'Клавиатура подходит для операционной системы Windows';
 littleMessage2.innerHTML = 'Комбинация для переключения языка: левые shift + alt';
-
-document.body.append(container);
-container.append(heading);
-container.append(formForText);
-container.append(keyboard);
-container.append(littleMessage);
-container.append(littleMessage2);
-
-keyboard.append(lineOne);
-keyboard.append(lineTwo);
-keyboard.append(lineThree);
-keyboard.append(lineFour);
-keyboard.append(lineFive);
-
-lineOne.append(keyRemark);
-lineOne.append(key1);
-lineOne.append(key2);
-lineOne.append(key3);
-lineOne.append(key4);
-lineOne.append(key5);
-lineOne.append(key6);
-lineOne.append(key7);
-lineOne.append(key8);
-lineOne.append(key9);
-lineOne.append(key0);
-lineOne.append(keyMinus);
-lineOne.append(keyEquals);
-lineOne.append(keyBackspace);
-
-keyRemark.append(keyRemarkIn);
-key1.append(key1In);
-key2.append(key2In);
-key3.append(key3In);
-key4.append(key4In);
-key5.append(key5In);
-key6.append(key6In);
-key7.append(key7In);
-key8.append(key8In);
-key9.append(key9In);
-key0.append(key0In);
-keyMinus.append(keyMinusIn);
-keyEquals.append(keyEqualsIn);
-keyBackspace.append(keyBackspaceIn);
-
 keyRemarkIn.innerHTML = '`';
 key1In.innerHTML = '1';
 key2In.innerHTML = '2';
@@ -452,23 +315,6 @@ key0In.innerHTML = '0';
 keyMinusIn.innerHTML = '-';
 keyEqualsIn.innerHTML = '=';
 keyBackspaceIn.innerHTML = 'Backspace';
-
-keyTab.append(keyTabIn);
-keyQ.append(keyQIn);
-keyW.append(keyWIn);
-keyE.append(keyEIn);
-keyR.append(keyRIn);
-keyT.append(keyTIn);
-keyY.append(keyYIn);
-keyU.append(keyUIn);
-keyI.append(keyIIn);
-keyO.append(keyOIn);
-keyP.append(keyPIn);
-keySquareL.append(keySquareLIn);
-keySquareR.append(keySquareRIn);
-keySlash.append(keySlashIn);
-keyDel.append(keyDelIn);
-
 keyTabIn.innerHTML = 'Tab';
 keyQIn.innerHTML = 'q';
 keyWIn.innerHTML = 'w';
@@ -484,7 +330,6 @@ keySquareLIn.innerHTML = '[';
 keySquareRIn.innerHTML = ']';
 keySlashIn.innerHTML = '&#92';
 keyDelIn.innerHTML = 'Del';
-
 keyCapsIn.innerHTML = 'CapsLock';
 keyAIn.innerHTML = 'a';
 keySIn.innerHTML = 's';
@@ -498,7 +343,6 @@ keyLIn.innerHTML = 'l';
 keySemicolonIn.innerHTML = ';';
 keyApostropheIn.innerHTML = '&#39';
 keyEnterIn.innerHTML = 'Enter';
-
 keyShiftLIn.innerHTML = 'Shift';
 keyZIn.innerHTML = 'z';
 keyXIn.innerHTML = 'x';
@@ -513,6 +357,111 @@ keyAnotherSlashIn.innerHTML = '/';
 keyUpIn.innerHTML = '&#8593';
 keyShiftRIn.innerHTML = 'Shift';
 
+
+lineFive.append(keyCtrlL);
+lineFive.append(keyWin);
+lineFive.append(keyAltL);
+lineFive.append(keySpace);
+lineFive.append(keyAltR);
+lineFive.append(keyLeft);
+lineFive.append(keyDown);
+lineFive.append(keyRight);
+lineFive.append(keyCtrlR);
+lineTwo.append(keyTab);
+lineTwo.append(keyQ);
+lineTwo.append(keyW);
+lineTwo.append(keyE);
+lineTwo.append(keyR);
+lineTwo.append(keyT);
+lineTwo.append(keyY);
+lineTwo.append(keyU);
+lineTwo.append(keyI);
+lineTwo.append(keyO);
+lineTwo.append(keyP);
+lineTwo.append(keySquareL);
+lineTwo.append(keySquareR);
+lineTwo.append(keySlash);
+lineTwo.append(keyDel);
+lineThree.append(keyCaps);
+lineThree.append(keyA);
+lineThree.append(keyS);
+lineThree.append(keyD);
+lineThree.append(keyF);
+lineThree.append(keyG);
+lineThree.append(keyH);
+lineThree.append(keyJ);
+lineThree.append(keyK);
+lineThree.append(keyL);
+lineThree.append(keySemicolon);
+lineThree.append(keyApostrophe);
+lineThree.append(keyEnter);
+lineFour.append(keyShiftL);
+lineFour.append(keyZ);
+lineFour.append(keyX);
+lineFour.append(keyC);
+lineFour.append(keyV);
+lineFour.append(keyB);
+lineFour.append(keyN);
+lineFour.append(keyM);
+lineFour.append(keyComma);
+lineFour.append(keyDot);
+lineFour.append(keyAnotherSlash);
+lineFour.append(keyUp);
+lineFour.append(keyShiftR);
+document.body.append(container);
+container.append(heading);
+container.append(formForText);
+container.append(keyboard);
+container.append(littleMessage);
+container.append(littleMessage2);
+keyboard.append(lineOne);
+keyboard.append(lineTwo);
+keyboard.append(lineThree);
+keyboard.append(lineFour);
+keyboard.append(lineFive);
+lineOne.append(keyRemark);
+lineOne.append(key1);
+lineOne.append(key2);
+lineOne.append(key3);
+lineOne.append(key4);
+lineOne.append(key5);
+lineOne.append(key6);
+lineOne.append(key7);
+lineOne.append(key8);
+lineOne.append(key9);
+lineOne.append(key0);
+lineOne.append(keyMinus);
+lineOne.append(keyEquals);
+lineOne.append(keyBackspace);
+keyRemark.append(keyRemarkIn);
+key1.append(key1In);
+key2.append(key2In);
+key3.append(key3In);
+key4.append(key4In);
+key5.append(key5In);
+key6.append(key6In);
+key7.append(key7In);
+key8.append(key8In);
+key9.append(key9In);
+key0.append(key0In);
+keyMinus.append(keyMinusIn);
+keyEquals.append(keyEqualsIn);
+keyBackspace.append(keyBackspaceIn);
+keyTab.append(keyTabIn);
+keyQ.append(keyQIn);
+keyW.append(keyWIn);
+keyE.append(keyEIn);
+keyR.append(keyRIn);
+keyT.append(keyTIn);
+keyY.append(keyYIn);
+keyU.append(keyUIn);
+keyI.append(keyIIn);
+keyO.append(keyOIn);
+keyP.append(keyPIn);
+keySquareL.append(keySquareLIn);
+keySquareR.append(keySquareRIn);
+keySlash.append(keySlashIn);
+keyDel.append(keyDelIn);
 keyCaps.append(keyCapsIn);
 keyA.append(keyAIn);
 keyS.append(keySIn);
@@ -526,7 +475,6 @@ keyL.append(keyLIn);
 keySemicolon.append(keySemicolonIn);
 keyApostrophe.append(keyApostropheIn);
 keyEnter.append(keyEnterIn);
-
 keyShiftL.append(keyShiftLIn);
 keyZ.append(keyZIn);
 keyX.append(keyXIn);
@@ -540,7 +488,6 @@ keyDot.append(keyDotIn);
 keyAnotherSlash.append(keyAnotherSlashIn);
 keyUp.append(keyUpIn);
 keyShiftR.append(keyShiftRIn);
-
 keyCtrlL.append(keyCtrlLIn);
 keyWin.append(keyWinIn);
 keyAltL.append(keyAltLIn);
@@ -550,6 +497,7 @@ keyLeft.append(keyLeftIn);
 keyDown.append(keyDownIn);
 keyRight.append(keyRightIn);
 keyCtrlR.append(keyCtrlRIn);
+
 
 document.addEventListener('keydown', (event) => {
   if (event.code === amountZ) {
@@ -2326,3 +2274,22 @@ function addInFormSpace() {
 }
 
 keySpaceIn.addEventListener('click', addInFormSpace);
+
+
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'Backspace') {
+    event.preventDefault();
+    let arrFromText = Array.from(formForText.textContent);
+    let arrFromTextNew = arrFromText.pop();
+    formForText.textContent = arrFromText.join('');
+  }
+});
+
+function funcBackspace() {
+  let arrFromText = Array.from(formForText.textContent);
+  let arrFromTextNew = arrFromText.pop();
+  formForText.textContent = arrFromText.join('');
+}
+
+keyBackspace.addEventListener('click', funcBackspace);
